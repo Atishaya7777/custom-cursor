@@ -1,6 +1,8 @@
 {
-  "name": "custom-cursor-component-library",
-  "private": true,
+  "name": "@atishaya7777/custom-cursor",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Atishaya7777"
+  },
   "version": "0.0.1",
   "description": "A custom cursor component library created for React applications",
   "type": "module",
