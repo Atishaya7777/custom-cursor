@@ -1,7 +1,16 @@
 import React from "react";
+import "./Cursor.css";
 
-const Cursor: React.FC<{}> = () => {
-  return <div>Cursor</div>;
+export interface ICursor {
+  label: string;
+}
+
+const Cursor: React.FC<ICursor> = ({ label }) => {
+  return (
+    <div>
+      <button>{label}</button>
+    </div>
+  );
 };
 
 export default Cursor;
